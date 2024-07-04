@@ -3,7 +3,7 @@ package entidades;
 import java.util.Date;
 
 public class Especie extends Alienigena {
-    public Especie(int id, String nome, Especie especie, int nivelPericulosidade, Date dataHoraEntrada, boolean emQuatentena, Planeta planetaOrigem, int periculosidadeBase) {
+    public Especie(String id, String nome, Especie especie, int nivelPericulosidade, Date dataHoraEntrada, boolean emQuatentena, Planeta planetaOrigem, int periculosidadeBase) {
         super(id, nome, especie, nivelPericulosidade, dataHoraEntrada, emQuatentena);
         this.planetaOrigem = planetaOrigem;
         this.periculosidadeBase = periculosidadeBase;

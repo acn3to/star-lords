@@ -3,14 +3,14 @@ package entidades;
 import java.util.Date;
 
 public class Alienigena {
-    private int id;
+    private String id;
     private String nome;
     private Especie especie;
     private int nivelPericulosidade;
     private Date dataHoraEntrada;
     private boolean emQuatentena;
 
-    public Alienigena(int id, String nome, Especie especie, int nivelPericulosidade, Date dataHoraEntrada, boolean emQuatentena) {
+    public Alienigena(String id, String nome, Especie especie, int nivelPericulosidade, Date dataHoraEntrada, boolean emQuatentena) {
         this.id = id;
         this.nome = nome;
         this.especie = especie;
@@ -19,11 +19,11 @@ public class Alienigena {
         this.emQuatentena = emQuatentena;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
